@@ -34,7 +34,7 @@ public class App {
             String input = scanner.next(); // 사용자가 exit를 입력하면 scanner.next()가 읽고 input 변수에 exit 저장
             if (input.equals("exit")) { // exit 입력 시 종료
                 break;
-
+// ㅏㅏ
             }
         }
     }
