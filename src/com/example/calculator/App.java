@@ -19,7 +19,7 @@ public class App {
             String operator = scanner.next();
 
             int result = calculator.calculate(num1, num2, operator); // calculator.calculate()를 호출해 계산 결과를 반환받아 result에 저장
-                                                                     // 매번 새로운 결과값을 받기 위해 while문 안에 존재
+            // 매번 새로운 결과값을 받기 위해 while문 안에 존재
 
             System.out.println("입력한 숫자: " + num1 + ", " + num2); // 입력받은 num1, num2를 콘솔에 출력
             System.out.println("입력한 연산자: " + operator); // 입력받은 연산자를 콘솔에 출력
@@ -34,7 +34,6 @@ public class App {
             String input = scanner.next(); // 사용자가 exit를 입력하면 scanner.next()가 읽고 input 변수에 exit 저장
             if (input.equals("exit")) { // exit 입력 시 종료
                 break;
-// ㅏㅏ
             }
         }
     }
